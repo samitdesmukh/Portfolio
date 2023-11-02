@@ -8,6 +8,10 @@
   font-family: 'Poppins', sans-serif;
   scroll-behavior: smooth;
 }
+body{
+  margin-left: 3vw;
+  margin-right: 3vw;
+}
 
 section {
   padding: 100px;
@@ -15,8 +19,6 @@ section {
 
 .banner {
   position: relative;
-  min-height: 100vh;
-  background: url(https://raw.githubusercontent.com/WoojinFive/CSS_Playground/master/Responsive%20Personal%20Portfolio%20Website/banner.jpg);
   background-size: cover;
   background-position: right;
   display: flex;
@@ -342,7 +344,7 @@ img {
   .menu {
     position: fixed;
     top: 75px;
-    left: -100%;
+    left: -200%;
     display: block;
     padding: 100px 50px;
     text-align: center;
@@ -574,3 +576,26 @@ header .logo:hover {
   background-color: #9131EA; /* Change background color on hover, e.g., to #9131EA */
 }
 
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.contactInfoBx {
+  display: flex;
+  flex-direction: column;
+}
+
+.contactInfoBx .box {
+  margin-bottom: 20px; /* Add space between contact info items */
+}
+
+.contactInfoBx .box .icon {
+  margin-right: -50px; /* Add space between icon and text */
+}
+
+.contentBx.w50 {
+  padding-right: 30px;
+  background-image: none; /* Remove the background image */
+}
