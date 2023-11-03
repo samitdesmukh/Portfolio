@@ -8,9 +8,10 @@
   font-family: 'Poppins', sans-serif;
   scroll-behavior: smooth;
 }
-body{
+
+body {
   margin-left: 1vw;
-  
+
 }
 
 section {
@@ -32,6 +33,7 @@ section {
   font-weight: 500;
   line-height: 1.5em;
 }
+
 .banner h2 span {
   font-size: 1.5em;
   font-weight: 700;
@@ -200,7 +202,8 @@ img {
 }
 
 .testimonial {
-  background: #f7f7f7;;
+  background: #f7f7f7;
+  ;
 }
 
 .testimonial .content {
@@ -223,7 +226,7 @@ img {
   font-weight: 300;
 }
 
-.testimonial .content .testimonialBx h3  {
+.testimonial .content .testimonialBx h3 {
   margin-top: 40px;
   text-align: end;
   color: #fff;
@@ -311,7 +314,7 @@ img {
   font-size: 24px;
 }
 
-.contactInfoBx .box  .text {
+.contactInfoBx .box .text {
   display: flex;
   margin-left: 20px;
   font-size: 16px;
@@ -320,7 +323,7 @@ img {
   font-weight: 300;
 }
 
-.contactInfoBx .box  .text  h3 {
+.contactInfoBx .box .text h3 {
   font-weight: 500;
   color: #2196f3;
   margin-bottom: 0;
@@ -330,11 +333,12 @@ img {
   background: #000;
   color: #fff;
   text-align: center;
-  padding: 10px;  
+  padding: 10px;
 }
 
 /*Responsive*/
 @media (max-width: 991px) {
+
   header,
   header.sticky {
     padding: 20px 50px;
@@ -451,6 +455,7 @@ img {
 }
 
 @media (max-width: 600px) {
+
   header,
   header.sticky {
     padding: 20px 20px;
@@ -465,46 +470,53 @@ img {
     padding: 100px 20px;
   }
 }
-.menu{
-list-style: none;
-margin-left:30px;
-background: wh;
-color: white;
-padding:0 30px;
-line-height:40px;
+
+.menu {
+  list-style: none;
+  margin-left: 30px;
+  background: wh;
+  color: white;
+  padding: 0 30px;
+  line-height: 40px;
 }
-.menu:hover{
-font-size:20px;
-color: white;
-transform-style: inherit;
-transform: rotate (-25deg) skew(25deg);
+
+.menu:hover {
+  font-size: 20px;
+  color: white;
+  transform-style: inherit;
+  transform: rotate (-25deg) skew(25deg);
 }
-.btn:hover{
-    background: #9131EA;
+
+.btn:hover {
+  background: #9131EA;
 }
-.services :hover{
-    background: #9131EA;
+
+.services :hover {
+  background: #9131EA;
 }
-.testimonial:hover{
-    background: #9131EA;
+
+.testimonial:hover {
+  background: #9131EA;
 }
-.formBx form input[type="submit"] :hover{
+
+.formBx form input[type="submit"] :hover {
   background: #9131EA;
 }
 
 .img:hover {
   box-shadow: 0 0 20px black;
-  transform: scale(1.1);  
+  transform: scale(1.1);
 }
 
 .img {
-  transition: transform 0.2s ease; 
+  transition: transform 0.2s ease;
 }
 
 .formBx input[type="submit"]:hover {
   background-color: #9131EA;
-  color: white; 
+  color: white;
 }
+
 /* Change the link color to #9131EA on hover */
 header .logo:hover {
   color: #9131EA;
@@ -513,10 +525,14 @@ header .logo:hover {
 
 /* Style the scrollable content */
 .scrollable-content {
-  max-height: 300px; /* Set the maximum height for the scrollable content */
-  overflow-y: auto; /* Add a vertical scrollbar when the content overflows */
-  scrollbar-width: thin; /* For Firefox */
-  scrollbar-color: #9131EA #f0f0f0; /* For Firefox */
+  max-height: 300px;
+  /* Set the maximum height for the scrollable content */
+  overflow-y: auto;
+  /* Add a vertical scrollbar when the content overflows */
+  scrollbar-width: thin;
+  /* For Firefox */
+  scrollbar-color: #9131EA #f0f0f0;
+  /* For Firefox */
 }
 
 /* Style the scrollbar for WebKit (Chrome and Safari) */
@@ -525,12 +541,14 @@ header .logo:hover {
 }
 
 .scrollable-content::-webkit-scrollbar-thumb {
-  background-color: #fff; /* Thumb color */
+  background-color: #fff;
+  /* Thumb color */
   border-radius: 10px;
 }
 
 .scrollable-content::-webkit-scrollbar-track {
-  background-color: #fff; /* Track color */
+  background-color: #fff;
+  /* Track color */
 }
 
 /* Style the scrollbar for Firefox */
@@ -552,7 +570,8 @@ header .logo:hover {
   left: 0;
   width: 100%;
   height: 100%;
-  background: white;
+  background: #9131EA;
+  color: #fff;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -563,17 +582,21 @@ header .logo:hover {
 .workBx.slide:hover .overlay {
   top: 0;
 }
+
 /* Add a background color transition for testimonialBx on hover */
 .testimonialBx {
-  background-color: #f0f0f0; /* Default background color */
+  background-color: #f0f0f0;
+  /* Default background color */
   padding: 20px;
   margin: 10px;
   border-radius: 5px;
-  transition: background-color 0.3s ease-in-out; /* Add a smooth background color transition effect */
+  transition: background-color 0.3s ease-in-out;
+  /* Add a smooth background color transition effect */
 }
 
 .testimonialBx:hover {
-  background-color: #9131EA; /* Change background color on hover, e.g., to #9131EA */
+  background-color: #9131EA;
+  /* Change background color on hover, e.g., to #9131EA */
 }
 
 .contactInfo {
@@ -588,14 +611,97 @@ header .logo:hover {
 }
 
 .contactInfoBx .box {
-  margin-bottom: 20px; /* Add space between contact info items */
+  margin-bottom: 20px;
+  /* Add space between contact info items */
 }
 
 .contactInfoBx .box .icon {
-  margin-right: -50px; /* Add space between icon and text */
+  margin-right: -50px;
+  /* Add space between icon and text */
 }
 
 .contentBx.w50 {
   padding-right: 30px;
-  background-image: none; /* Remove the background image */
+  background-image: none;
+  /* Remove the background image */
 }
+
+a {
+  color: white;
+}
+
+
+
+.whatsapp-icon {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25d366; /* WhatsApp green color */
+  color: #fff;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 24px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s;
+}
+
+.whatsapp-icon:hover {
+  background-color: #9131EA /* Darker green on hover */
+}
+
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  background: #9131EA;
+  
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-whatsapp {
+  background: #25d366;
+  color: white;
+}
+.fa-linkedin{
+  background: #2196f3;
+  color: white;
+}
+
+
+
+
+
+.contactInfo .box {
+  display: flex;
+  align-items: center; /* Align icon and text vertically */
+}
+
+.contactInfo .box .icon {
+  padding: 0 30px;
+}
+
+
