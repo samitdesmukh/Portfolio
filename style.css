@@ -701,7 +701,9 @@ a {
 }
 
 .contactInfo .box .icon {
-  padding: 0 30px;
+  margin: 0 -50px;
+  padding: 0 35px;
+  
 }
 
 
