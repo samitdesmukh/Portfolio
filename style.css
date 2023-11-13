@@ -59,6 +59,29 @@ section {
   font-weight: 500;
 }
 
+/* hire me and see project buttom */
+
+.btn-group a {
+  color: #fff; /* Black */
+  text-decoration: none;
+  padding: 8px 20px;
+  background: #2196f3; /* Green */
+  border-radius: 10px;
+  /* border: 2px solid #2196f3; Green */
+  font-weight: 500;
+  transition: .3s;
+}
+
+.btn-group a:hover {
+  color: white; /* Green */
+  background: #9131ea;
+  /* background: transparent; */
+}
+
+
+
+
+
 header {
   position: fixed;
   top: 0;
@@ -142,6 +165,10 @@ header.sticky ul li a {
 .w50 {
   min-width: 50%;
 }
+.w50 :hover{
+  border: 0.5px solid white;
+  border-radius: 15px;
+}
 
 img {
   max-width: 100%;
@@ -174,6 +201,9 @@ img {
 
 .services .content .servicesBx:hover {
   background: #2196f3;
+  border: 2px solid #fff;
+  border-radius: 10px;
+
 }
 
 .services .content .servicesBx img {
@@ -239,6 +269,7 @@ img {
   font-size: 14px;
   font-weight: 400;
 }
+
 
 .contact {
   background: #111;

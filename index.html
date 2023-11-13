@@ -27,9 +27,14 @@
         <h2>Hello, I'm<br><span>Samit kumar Desmukh</span></h2>
         <h3>I'm a Front End Web Developer.</h3>
       </div>
-      <a href="#about" class="btn">About Me</a>
+      <span class="btn-group">
+        <a href="#about" class="btn">About Me</a>
+        <a href="#contact" class="btn">Hire Me</a>
+        
+      </span>
     </div>
   </section>
+
 
   <section class="about" id="about">
     <div class="heading">
@@ -205,7 +210,7 @@
   <a href="javascript:void(0);" class="fa fa-twitter" onclick="shareOnTwitter()"></a>
   <a href="javascript:void(0);" class="fa fa-whatsapp" onclick="shareOnWhatsApp()"></a>
   <a href="javascript:void(0);" class="fa fa-linkedin" onclick="shareOnLinkedIn()"></a>
-  <span>   share</span>
+  <span> share</span>
 
 
 
@@ -214,6 +219,8 @@
   <section class="contact" id="contact">
     <div class="heading white">
       <h2>Contact Us</h2>
+      <br>
+      <br>
       <p>
         "Feel free to get in touch with me for any inquiries or collaboration opportunities. I look forward to hearing
         from you!"</p>
@@ -237,7 +244,9 @@
             </div>
             <div class="text">
               <h3>Phone</h3>
-              <a href="tel:+918335899606"><p>+918335899606</p></a>
+              <a href="tel:+918335899606">
+                <p>+918335899606</p>
+              </a>
             </div>
           </div>
           <div class="box">
@@ -246,7 +255,9 @@
             </div>
             <div class="text">
               <h3>Email</h3>
-              <a href="mailto:desmukhsamit2004@gmail.com"><p>desmukhsamit2004@gmail.com</p></a>
+              <a href="mailto:desmukhsamit2004@gmail.com">
+                <p>desmukhsamit2004@gmail.com</p>
+              </a>
             </div>
           </div>
         </div>
@@ -255,10 +266,10 @@
       <div class="formBx">
         <form action="https://formspree.io/f/mdorjnwb" method="POST">
           <h3>Message Me</h3>
-          <input type="text" placeholder="Full Name" name="name">
-          <input type="email" placeholder="Email" name="Email">
-          <input type="tel" placeholder="Phone" name="Phone">
-          <textarea placeholder="Tell me about your project" name="Message send to you"></textarea>
+          <input type="text" placeholder="Full Name" name="name" required>
+          <input type="email" placeholder="Email" name="Email" required>
+          <input type="tel" placeholder="Phone" name="Phone" required>
+          <textarea placeholder="Tell me about your project" name="Message send to you" required></textarea>
           <input type="submit" value="Send">
         </form>
       </div>
@@ -308,10 +319,10 @@
     }
 
     function shareOnLinkedIn() {
-    var url = encodeURIComponent(window.location.href);
-    var message = encodeURIComponent("If you are looking for an outstanding web developer, look no further! Samit Kumar Desmukh's web development skills are truly remarkable. His ability to blend creativity, functionality, and responsiveness is second to none. Check out the link for further information. You won't be disappointed!");
-    window.open('https://www.linkedin.com/sharing/share-offsite/?url=' + url + '&text=' + message, '_blank');
-  }
+      var url = encodeURIComponent(window.location.href);
+      var message = encodeURIComponent("If you are looking for an outstanding web developer, look no further! Samit Kumar Desmukh's web development skills are truly remarkable. His ability to blend creativity, functionality, and responsiveness is second to none. Check out the link for further information. You won't be disappointed!");
+      window.open('https://www.linkedin.com/sharing/share-offsite/?url=' + url + '&text=' + message, '_blank');
+    }
   </script>
 </body>
 
